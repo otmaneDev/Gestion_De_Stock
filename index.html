@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mon site</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<div class="container">
+  <div class="head">
+    <h1>Karym Phone Market</h1>
+    <p>application de gestion de stock</p>
+  </div>
+  <div class="inputs">
+    <input type="text" placeholder="Devise name" id="name">
+    <input type="text" placeholder="Model" id="model">
+    <div class="pr">
+      <input onkeyup="getotal()" type="number" placeholder="Price" id="price">
+      <input onkeyup="getotal()" type="number" placeholder="Tax" id="tax">
+      <input onkeyup="getotal()" type="number" placeholder="Ads"id="ads">
+      <input onkeyup="getotal()" type="number" placeholder="Escompt" id="escompt">
+      <small class="hi" id="total"></small>
+    </div>
+    <input type="number" placeholder="Quantité" id="quantite">
+    <button id="create">Create</button>
+  </div>
+  <div class="outputs">
+    <input onblur="this.placeholder = 'search'" onkeyup="searrch(this.value)" type="search" placeholder="search" id="search">
+    <div id="helll">
+    <button onclick="searchmood(this.id)" class="hiI" id="sname">search by name</button>
+    <button onclick="searchmood(this.id)" class="hiI" id="smodel">search by model</button>
+    </div>
+    <div id="dellall">
+      
+    </div>
+    <table id="gg">
+      <thead id="jj">
+        <th>id</th>
+        <th>name</th>
+        <th>model</th>
+        <th>price</th>
+        <th>tax</th>
+        <th>ads</th>
+        <th>Escompt</th>
+        <th>total</th>
+        <th>edit</th>
+        <th>delete</th>
+      </thead>
+      <tbody id="haw">
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>

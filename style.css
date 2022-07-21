@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: #333;
+}
+.head{
+    text-align: center;
+    margin: 50px 0;
+    color: white;
+    font-size: 22px;
+}
+.head h1{
+    padding-bottom: 10px;
+    font-family: 'Segoe UI';
+}
+.inputs{
+    width: 80%;
+    margin: auto;
+}
+ input{
+    width: 100%;
+    height: 28px;
+    border: none;
+    padding: 4px;
+    margin: 4px 0;
+    border-radius: 3px;
+    background-color: #222;
+    color: white;
+    transition: 200ms;
+}
+input:focus{
+    transform: scale(1.1);
+    background-color: #111;
+}
+.pr{
+    display: flex;
+}
+.pr input{
+    width: 22%;
+    margin-right: 8px;
+}
+#total{
+    margin: auto 0;
+    color: white;
+    background-color: red;
+}
+.pr .hi::before{
+    content: 'Totale: ';
+    border-radius: 3px;
+}
+button{
+    color: white;
+    background-color: rgb(99, 11, 99);
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 2px;
+    transition: 500ms;
+    box-sizing: border-box;
+}
+button:hover{
+    background-color: rgb(117, 9, 117);
+    letter-spacing: 1px ;
+}
+.outputs{
+    width: 80%;
+    margin: auto;
+}
+.hiI{
+    width: 45%;
+    
+}
+#helll{
+    display: flex;
+    justify-content: space-between;
+}
+#gg{
+    width: 100%;
+    color: #fff;
+    margin: 10px 0;
+    text-align: center;
+   
+
+
+}
+th{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(151, 151, 151);
+}
+th,td{
+    padding:3.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 1px solid wheat;
+}
+#dellall{
+    margin: 8px 0;
+}
+
+
+
